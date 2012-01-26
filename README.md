@@ -6,7 +6,7 @@ https://github.com/garybernhardt/cls
 
 Cls lets you define classes with a more terse syntax. It's useful for presenters and other classes that have many small methods. For example:
 
-```
+```ruby
 class UserPresenter
     takes :user
     let(:full_name) { [@user.first_name, @user.last_name].join(" ") }
@@ -15,7 +15,7 @@ end
 
 Contrast that with the standard Ruby version:
 
-```
+```ruby
 class UserPresenter
     def initialize(user)
         @user = user
