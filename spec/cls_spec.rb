@@ -1,4 +1,4 @@
-require "./cls"
+require "cls"
 
 class NamePresenter
   include Cls
