@@ -1,4 +1,5 @@
 module Cls
+  VERSION = "0.0.1"
   def self.included(base)
     base.send :extend, ClassMethods
   end
