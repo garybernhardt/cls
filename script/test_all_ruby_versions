@@ -2,5 +2,5 @@
 
 set -e
 
-rvm 1.9.2@raptor,1.9.3@raptor exec script/test
+rvm 1.9.2@cls,1.9.3@cls exec script/test
 
