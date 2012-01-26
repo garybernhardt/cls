@@ -30,6 +30,10 @@ end
 
 Pretty big difference, huh?
 
+## WHY NOT USE STRUCT?
+
+Struct can give you approximately what `takes` does, but it requires inheriting from Struct and it will default omitted constructor arguments to nil. I don't like it as a solution, inheritance and silent nils both being evil.
+
 ## CAVEATS
 
 Ruby 1.8 will allow you to pass the wrong number of arguments to a block, which can be confusing. It throws a warning, so you should at least be notified that you're doing it. This problem doesn't exist in Ruby 1.9.
