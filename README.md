@@ -30,6 +30,10 @@ end
 
 Pretty big difference, huh?
 
+## HISTORY
+
+Cls started as the Shorty class in [Raptor](https://github.com/garybernhardt/raptor). There's also a Destroy All Software [screencast](https://www.destroyallsoftware.com/screencasts/catalog/shorter-class-syntax) that discusses the implementation.
+
 ## WHY NOT USE STRUCT?
 
 Struct can give you approximately what `takes` does, but it requires inheriting from Struct and it will default omitted constructor arguments to nil. I don't like it as a solution, inheritance and silent nils both being evil.
