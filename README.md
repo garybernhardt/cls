@@ -42,3 +42,9 @@ Struct can give you approximately what `takes` does, but it requires inheriting 
 
 Ruby 1.8 will allow you to pass the wrong number of arguments to a block, which can be confusing. It throws a warning, so you should at least be notified that you're doing it. This problem doesn't exist in Ruby 1.9.
 
+## LICENSE
+
+Released under the MIT license:
+
+* http://www.opensource.org/licenses/MIT
+
