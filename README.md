@@ -8,7 +8,7 @@ Cls lets you define classes with a more terse syntax. It's useful for presenters
 
 ```ruby
 class UserPresenter
-    include Cls
+    extend Cls
     takes :user
     let(:full_name) { [@user.first_name, @user.last_name].join(" ") }
 end
