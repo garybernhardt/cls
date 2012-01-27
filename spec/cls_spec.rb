@@ -1,7 +1,7 @@
 require "cls"
 
 class NamePresenter
-  include Cls
+  extend Cls
   attr_reader :name
   takes(:name)
   let(:yelled_name) { @name.upcase }
