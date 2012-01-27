@@ -1,5 +1,5 @@
 module Cls
-  VERSION = "0.0.1"
+  VERSION = "0.0.3"
 
   def takes(*args)
     define_initialize(args)
